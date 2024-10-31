@@ -33,9 +33,12 @@ export default async function OrdersPage({
   // const data = await fetch(`http://localhost:3001/orders`, {
   //   cache: 'force-cache',
   // });
-  const data = await fetch(`http://localhost:3000/api/orders`, {
-    cache: 'force-cache',
-  });
+  const data = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/orders`,
+    {
+      cache: 'force-cache',
+    }
+  );
   const res: OrderType[] = await data.json();
   console.log(res);
   return (

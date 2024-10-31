@@ -26,7 +26,7 @@ export default function CompanieList({ locale }: { locale: string }) {
     // fetch('http://localhost:3001/companies')
     //   .then((response) => response.json())
     //   .then((data) => setCompanies(data));
-    fetch('http://localhost:3000/api/companies')
+    fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/companies`)
       .then((response) => response.json())
       .then((data) => setCompanies(data));
   }, []);

@@ -19,7 +19,9 @@ export default async function UsersPage({
   const { locale } = await params;
 
   // const data = await fetch(`http://localhost:3001/users`);
-  const data = await fetch(`http://localhost:3000/api/users`);
+  const data = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/users`
+  );
   const res: UserType[] = await data.json();
   console.log(res);
   return (

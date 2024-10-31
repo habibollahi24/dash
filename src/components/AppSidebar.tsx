@@ -18,7 +18,9 @@ export default async function AppSidebar({
   locale: string;
 }) {
   // const data = await fetch(`http://localhost:3001/${locale}`);
-  const data = await fetch(`http://localhost:3000/api/${locale}`);
+  const data = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/${locale}`
+  );
   const res = await data.json();
 
   const list: {
