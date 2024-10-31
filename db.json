@@ -1,0 +1,432 @@
+{
+  "en": {
+    "list": [
+      {
+        "id": 1,
+        "title": "Overview",
+        "icon": "../layout-grid.svg",
+        "url": "/"
+      },
+      {
+        "id": 2,
+        "title": "Companies",
+        "icon": "../palette.svg",
+        "url": "/companies"
+      },
+      {
+        "id": 3,
+        "title": "Orders",
+        "icon": "../sticky-note.svg",
+        "url": "/orders"
+      },
+      {
+        "id": 4,
+        "title": "Users",
+        "icon": "../octagon.svg",
+        "url": "/users"
+      }
+    ],
+    "admin": {
+      "username": "Mohammad Habibollahi",
+      "email": "Habibollahi24@gmail.com"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "Hello World",
+        "body": "This is a complete post"
+      },
+      {
+        "id": 2,
+        "title": "Hello Next.js",
+        "body": "Here is another complete post"
+      }
+    ]
+  },
+  "fa": {
+    "list": [
+      {
+        "id": 1,
+        "title": " پیش نمایش",
+        "icon": "../layout-grid.svg",
+        "url": "/"
+      },
+      {
+        "id": 2,
+        "title": "شرکت ها",
+        "icon": "../palette.svg",
+        "url": "/companies"
+      },
+      {
+        "id": 3,
+        "title": "سفارشات",
+        "icon": "../sticky-note.svg",
+        "url": "/orders"
+      },
+      {
+        "id": 4,
+        "title": "کاربران",
+        "icon": "../octagon.svg",
+        "url": "/users"
+      }
+    ],
+    "admin": {
+      "username": "محمد حبیب الهی",
+      "email": "Habibollahi24@gmail.com"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "سلام دنیا",
+        "body": "این یک پست کامل است"
+      },
+      {
+        "id": 2,
+        "title": "سلام نکست‌جی‌اس",
+        "body": "اینجا یک پست کامل دیگر است"
+      }
+    ]
+  },
+  "de": {
+    "list": [
+      {
+        "id": 1,
+        "title": " Überblick",
+        "icon": "../layout-grid.svg",
+        "url": "/"
+      },
+      {
+        "id": 2,
+        "title": "Unternehmen",
+        "icon": "../palette.svg",
+        "url": "/companies"
+      },
+      {
+        "id": 3,
+        "title": "Bestellungen",
+        "icon": "../sticky-note.svg",
+        "url": "/orders"
+      },
+      {
+        "id": 4,
+        "title": "Benutzer",
+        "icon": "../octagon.svg",
+        "url": "/users"
+      }
+    ],
+    "admin": {
+      "username": "Mohammad Habibollahi",
+      "email": "Habibollahi24@gmail.com"
+    },
+
+    "posts": [
+      {
+        "id": 1,
+        "title": "سلام دنیا",
+        "body": "این یک پست کامل است"
+      },
+      {
+        "id": 2,
+        "title": "سلام نکست‌جی‌اس",
+        "body": "اینجا یک پست کامل دیگر است"
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": {
+        "en": "John Doe",
+        "de": "Johann Doe",
+        "fa": "جان دو"
+      },
+      "email": "john@example.com",
+      "address": {
+        "en": "123 Main St, Anytown, USA",
+        "de": "123 Hauptstraße, Irgendstadt, USA",
+        "fa": "خیابان اصلی ۱۲۳، هرشهری، آمریکا"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Jane Smith",
+        "de": "Johanna Schmidt",
+        "fa": "جین اسمیت"
+      },
+      "email": "jane@example.com",
+      "address": {
+        "en": "456 Elm St, Anytown, USA",
+        "de": "456 Ulmenstraße, Irgendstadt, USA",
+        "fa": "خیابان علم ۴۵۶، هرشهری، آمریکا"
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Alice Johnson",
+        "de": "Alice Johnson",
+        "fa": "آلیس جانسون"
+      },
+      "email": "alice@example.com",
+      "address": {
+        "en": "789 Oak St, Anytown, USA",
+        "de": "789 Eichenstraße, Irgendstadt, USA",
+        "fa": "خیابان بلوط ۷۸۹، هرشهری، آمریکا"
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Bob Brown",
+        "de": "Robert Braun",
+        "fa": "باب براون"
+      },
+      "email": "bob@example.com",
+      "address": {
+        "en": "321 Pine St, Anytown, USA",
+        "de": "321 Kiefernstraße, Irgendstadt, USA",
+        "fa": "خیابان کاج ۳۲۱، هرشهری، آمریکا"
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "Charlie Davis",
+        "de": "Karl Davis",
+        "fa": "چارلی دیویس"
+      },
+      "email": "charlie@example.com",
+      "address": {
+        "en": "654 Maple St, Anytown, USA",
+        "de": "654 Ahornstraße, Irgendstadt, USA",
+        "fa": "خیابان افرا ۶۵۴، هرشهری، آمریکا"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer": {
+        "en": "John Doe",
+        "de": "Johann Doe",
+        "fa": "جان دو"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Laptop",
+            "de": "Laptop",
+            "fa": "لپ‌تاپ"
+          },
+          "quantity": 1,
+          "price": 1200
+        },
+        {
+          "name": {
+            "en": "Mouse",
+            "de": "Maus",
+            "fa": "ماوس"
+          },
+          "quantity": 2,
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer": {
+        "en": "Jane Smith",
+        "de": "Johanna Schmidt",
+        "fa": "جین اسمیت"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Monitor",
+            "de": "Monitor",
+            "fa": "مانیتور"
+          },
+          "quantity": 1,
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customer": {
+        "en": "Alice Johnson",
+        "de": "Alice Johnson",
+        "fa": "آلیس جانسون"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Tablet",
+            "de": "Tablet",
+            "fa": "تبلت"
+          },
+          "quantity": 1,
+          "price": 500
+        },
+        {
+          "name": {
+            "en": "Headphones",
+            "de": "Kopfhörer",
+            "fa": "هدفون"
+          },
+          "quantity": 1,
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customer": {
+        "en": "Bob Brown",
+        "de": "Robert Braun",
+        "fa": "باب براون"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Smartphone",
+            "de": "Smartphone",
+            "fa": "گوشی هوشمند"
+          },
+          "quantity": 1,
+          "price": 800
+        },
+        {
+          "name": {
+            "en": "Charger",
+            "de": "Ladegerät",
+            "fa": "شارژر"
+          },
+          "quantity": 1,
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customer": {
+        "en": "Charlie Davis",
+        "de": "Karl Davis",
+        "fa": "چارلی دیویس"
+      },
+      "items": [
+        {
+          "name": {
+            "en": "Camera",
+            "de": "Kamera",
+            "fa": "دوربین"
+          },
+          "quantity": 1,
+          "price": 1000
+        },
+        {
+          "name": {
+            "en": "Tripod",
+            "de": "Stativ",
+            "fa": "سه‌پایه"
+          },
+          "quantity": 1,
+          "price": 100
+        }
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Tech Innovators",
+        "de": "Technik Innovatoren",
+        "fa": "نوآوران فناوری"
+      },
+      "type": {
+        "en": "Client",
+        "de": "Kunde",
+        "fa": "مشتری"
+      },
+      "address": {
+        "en": "123 Silicon Valley, USA",
+        "de": "123 Silicon Valley, USA",
+        "fa": "۱۲۳ دره سیلیکون، آمریکا"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Green Energy Co",
+        "de": "Grüne Energie GmbH",
+        "fa": "شرکت انرژی سبز"
+      },
+      "type": {
+        "en": "Employer",
+        "de": "Arbeitgeber",
+        "fa": "کارفرما"
+      },
+      "address": {
+        "en": "456 Green Street, USA",
+        "de": "456 Grünstraße, USA",
+        "fa": "خیابان سبز ۴۵۶، آمریکا"
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Auto Dynamics",
+        "de": "Auto Dynamik",
+        "fa": "دینامیک خودرو"
+      },
+      "type": {
+        "en": "Client",
+        "de": "Kunde",
+        "fa": "مشتری"
+      },
+      "address": {
+        "en": "789 Motorway, USA",
+        "de": "789 Autobahn, USA",
+        "fa": "۷۸۹ بزرگراه، آمریکا"
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Health First",
+        "de": "Gesundheit Zuerst",
+        "fa": "سلامت اول"
+      },
+      "type": {
+        "en": "Employer",
+        "de": "Arbeitgeber",
+        "fa": "کارفرما"
+      },
+      "address": {
+        "en": "321 Wellness Ave, USA",
+        "de": "321 Wellness Straße, USA",
+        "fa": "۳۲۱ خیابان سلامت، آمریکا"
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "FinTech Solutions",
+        "de": "FinTech Lösungen",
+        "fa": "راه‌حل‌های فین‌تک"
+      },
+      "type": {
+        "en": "Client",
+        "de": "Kunde",
+        "fa": "مشتری"
+      },
+      "address": {
+        "en": "654 Finance Blvd, USA",
+        "de": "654 Finanzboulevard, USA",
+        "fa": "بلوار مالی ۶۵۴، آمریکا"
+      }
+    }
+  ]
+}
